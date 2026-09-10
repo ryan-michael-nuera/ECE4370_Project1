@@ -1,3 +1,9 @@
+# Script for Project 1 part 1
+# ECE 4370: Engineering for Surgery
+# Fall 2026
+# Author:   Ryan Michael Nuera; ryan.michael.a.nuera@vanderbilt.edu
+#           EVERYONE ADD YOUR NAMES
+
 import json
 import matplotlib.pyplot as plt
 from PCA import *
