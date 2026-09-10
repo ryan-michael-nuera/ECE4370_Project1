@@ -1,6 +1,6 @@
 import json
-import numpy as np
 import matplotlib.pyplot as plt
+from PCA import *
 
 # Write a python script to perform dimensionality reduction based on the principal components of the dataset in
 # “DimensionReduction.json”. This 10-dimensional dataset contains a "secret" 2D message, that you will find difficult,
@@ -11,9 +11,6 @@ import matplotlib.pyplot as plt
 # Scatter plot the coordinates of the samples in the PCA linear vector space in the first two PCA dimensions.
 # This represents the data in a 2-D reduced space of the 10-D dataset. To ensure it is displayed in the proper aspect
 # ratio, use ax.set_aspect(1) on this axis object.  What is the secret message?
-
-from PCA import *
-
 
 # Load the dataset
 f = open('DimensionalityReduction.json', 'rt')
