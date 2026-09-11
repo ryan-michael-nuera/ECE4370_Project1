@@ -1,14 +1,8 @@
 # % Class that implements principal components analysis on input data matrix
-# % ECE 5370: Engineering for Surgery
-# % Fall 2025
-# % Author: Prof. Jack Noble; jack.noble@vanderbilt.edu
+# % ECE 4370: Engineering for Surgery
+# % Fall 2026
+# This file has been adapted from the provided code of the PCA Analysis
 
-# initialize with input data d, where d is N x M array where N
-#   is the number of samples and M is the number of features
-# Example usage:
-# > d = np.random.rand(5,2) # 5 samples of a 2 feature process
-# > p = pca(d)
-# > d_pca = p.project(d) # returns coordinates of samples in the pca linear vector space
 
 import numpy as np
 

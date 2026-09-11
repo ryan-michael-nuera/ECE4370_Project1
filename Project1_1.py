@@ -29,16 +29,6 @@ D = np.array(dataset)
 # Perform PCA
 p = pca(D)
 
-# Print the eigenvalues
-print("Eigenvalues:")
-print(p.evals)
-
-# Calculate the percentage of variance explained
-percent_variance = 100 * p.evals / np.sum(p.evals)
-
-print("\nPercent variance explained:")
-print(percent_variance)
-
 # Project the data into PCA space
 D_pca = p.project(D)
 
@@ -52,3 +42,5 @@ plt.title("Dimension Reduction using PCA")
 
 plt.axis("equal")
 plt.show()
+
+# SECRET MESSAGE: exp (j * pi) + 1 = 0
