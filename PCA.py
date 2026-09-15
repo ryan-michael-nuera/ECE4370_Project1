@@ -28,4 +28,10 @@ class pca:
         f = d_m @ self.evects
         return f
 
-    #def num_effective_dims(self,percvar):
+    def num_effective_dims(self, percvar_thresh):
+        # fraction of total variance explained by each component, in decreasing order
+        var = np.real(self.evals)
+        cum_percvar = 100 * np.cumsum(var) / np.sum(var)
+        # first index where cumulative variance meets/exceeds the threshold
+        N = np.argmax(cum_percvar >= percvar_thresh) + 1
+        return N

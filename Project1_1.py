@@ -33,14 +33,14 @@ p = pca(D)
 D_pca = p.project(D)
 
 # Plot the first two principal components
-plt.figure()
-plt.scatter(D_pca[:, 0], D_pca[:, 1], s=5)
+fig, ax = plt.subplots()
+ax.scatter(D_pca[:, 0], D_pca[:, 1], s=5)
 
-plt.xlabel("Principal Component 1")
-plt.ylabel("Principal Component 2")
-plt.title("Dimension Reduction using PCA")
+ax.set_xlabel("Principal Component 1")
+ax.set_ylabel("Principal Component 2")
+ax.set_title("Dimension Reduction using PCA")
 
-plt.axis("equal")
+ax.set_aspect(1)
 plt.show()
 
 # SECRET MESSAGE: exp (j * pi) + 1 = 0
