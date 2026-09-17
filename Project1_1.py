@@ -2,7 +2,9 @@
 # ECE 4370: Engineering for Surgery
 # Fall 2026
 # Author:   Ryan Michael Nuera; ryan.michael.a.nuera@vanderbilt.edu
-#           EVERYONE ADD YOUR NAMES
+#           Julia Ke; julia.ke@vanderbilt.edu
+#           Moyo Fasola; moyosoreoluwa.fasola@vanderbilt.edu
+#           Sabra Winston; sabra.m.winston@vanderbilt.edu
 
 import json
 import matplotlib.pyplot as plt
