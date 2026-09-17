@@ -3,7 +3,7 @@
 # Fall 2026
 # Author:   Ryan Michael Nuera; ryan.michael.a.nuera@vanderbilt.edu
 #           Julia Ke; julia.ke@vanderbilt.edu
-#           Moyo Fasola; moyosoreoluwa.fasola@vanderbilt.edu
+#           Moyo Fasola; moyosoreoluwa.o.fasola@vanderbilt.edu
 #           Sabra Winston; sabra.m.winston@vanderbilt.edu
 
 import json

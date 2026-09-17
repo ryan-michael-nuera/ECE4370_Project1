@@ -4,7 +4,7 @@
 # Author:   Sabra Winston; sabra.m.winston@vanderbilt.edu
 #           Ryan Michael Nuera; ryan.michael.a.nuera@vanderbilt.edu
 #           Julia Ke; julia.ke@vanderbilt.edu
-#           Moyo Fasola; moyosoreoluwa.fasola@vanderbilt.edu
+#           Moyo Fasola; moyosoreoluwa.o.fasola@vanderbilt.edu
 
 import json
 import numpy as np
