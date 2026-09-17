@@ -1,7 +1,7 @@
 # Script for Project 1 part 2
 # ECE 4370: Engineering for Surgery
 # Fall 2026
-# Author:   Sabra Winston; sabra.m.winston@vanderbilt.edu\
+# Author:   Sabra Winston; sabra.m.winston@vanderbilt.edu
 #           Ryan Michael Nuera; ryan.michael.a.nuera@vanderbilt.edu
 #           Julia Ke; julia.ke@vanderbilt.edu
 #           Moyo Fasola; moyosoreoluwa.fasola@vanderbilt.edu
